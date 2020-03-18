@@ -12,9 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "heroku": "^7.39.0"
-  },
-  "devDependencies": {
+    "heroku": "^7.39.0",
     "http-proxy-middleware": "^1.0.3"
   }
 }
