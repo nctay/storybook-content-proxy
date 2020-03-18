@@ -6,7 +6,7 @@ const app = express()
 
 // proxy middleware options
 const options = {
-    target: 'httpsheroku logs --tail://www.mtsbank.ru', // target host
+    target: 'https://www.mtsbank.ru', // target host
     changeOrigin: true, // needed for virtual hosted sites
     headers: {
         Connection: 'keep-alive',
